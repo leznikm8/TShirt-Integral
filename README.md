@@ -34,7 +34,7 @@ The disk radii shrink at a rate proportional to 1 / sqrt(n). This scaling ensure
 
 Under this regime:
 
-* The local disk configuration converges to a Poisson Boolean model.
+* The local disk configuration converges to a Poisson Boolean model. (https://en.wikipedia.org/wiki/Boolean_model_(probability_theory))
 * The number of disks covering a fixed point converges in distribution to a
   Poisson random variable with mean 3/2.
 * The probability that a Poisson(3/2) variable is odd equals:
@@ -48,9 +48,9 @@ Therefore, the limiting expected odd-coverage area equals approximately:
 
 ## Numerical Methodology
 
-The limit is approximated numerically using Monte Carlo simulation:
+The limit is approximated numerically using a Monte Carlo simulation:
 
-1. Sample n disk centers uniformly in the unit square.
+1. Sample n disk centres uniformly in the unit square.
 2. Sample n disk radii according to the prescribed scaling.
 3. Sample many random points in the unit square to approximate the spatial
    integral.
