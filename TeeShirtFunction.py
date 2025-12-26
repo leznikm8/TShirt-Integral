@@ -1,5 +1,5 @@
 '''
-Created on 1 September 2025
+Created on 28 August 2025
 
 @author: Dr. Mike
 '''
@@ -41,4 +41,5 @@ if __name__ == "__main__":
 
     result = evaluate_tee_shirt_optimized(n_value, num_simulation_trials, num_integral_samples)
     print(f"Approximated value of the expression on Tee Shirt: {result}")
+
 
