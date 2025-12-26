@@ -1,3 +1,8 @@
+'''
+Created on 1 September 2025
+
+@author: Dr. Mike
+'''
 import numpy as np
 
 def evaluate_tee_shirt_optimized(n, num_simulation_trials, num_integral_samples):
@@ -36,3 +41,4 @@ if __name__ == "__main__":
 
     result = evaluate_tee_shirt_optimized(n_value, num_simulation_trials, num_integral_samples)
     print(f"Approximated value of the expression on Tee Shirt: {result}")
+
